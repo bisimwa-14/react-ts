@@ -1,0 +1,45 @@
+.form{
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin: 0 0 1rem 0;
+}
+
+.form h1{
+    text-align: center;
+    font-size: x-large;
+    color: #924eff;
+}
+
+.form button{
+    padding: 0;
+    background: none;
+    border: none
+}
+.form input,
+.form button{
+    height: 48px;
+}
+
+.form label{
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.form input{
+    padding: .5rem 1rem;
+    font: inherit;
+    outline: none;
+    border: 1px solid #924eff;
+    border-radius: .4rem;
+}
+
+.form button{
+    background-color: #924eff;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+}
