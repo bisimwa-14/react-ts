@@ -31,8 +31,10 @@
     padding: .5rem 1rem;
     font: inherit;
     outline: none;
-    border: 1px solid #924eff;
-    border-radius: .4rem;
+    background: #924eff13;
+    border: none;
+    border-bottom: 2px solid #924eff;
+    border-radius: .4rem  .4rem 0 0;
 }
 
 .form button{

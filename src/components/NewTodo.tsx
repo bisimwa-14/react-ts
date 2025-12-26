@@ -19,11 +19,12 @@ const NewTodo: React.FC = () => {
         }
 
         todosCtx.addTodo(enteredText);
+        todoTextInputRef.current!.value = '';
     };
 
     return <form onSubmit={submitHandler} className={styles.form}>
         <label htmlFor="text">Todo text</label>
-        <input type="text" id="text" ref={todoTextInputRef} />
+        <input type="text" autoFocus id="text" placeholder="Enter your todo..." ref={todoTextInputRef} />
         <button type="submit">Add Todo</button>
     </form>
  };
